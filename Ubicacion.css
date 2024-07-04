@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+
+iframe{
+    width: 50%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
