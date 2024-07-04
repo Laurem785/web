@@ -1,0 +1,68 @@
+body{
+     background-image: url(FOTO_Armando_1.jpg);
+    background-attachment: fixed;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+h5{
+    color: black;
+}
+
+.card-container {
+    width: 1300px;
+    height: 400px;
+    perspective: 1000px;
+   float: center;
+    display: flex;
+  }
+  
+
+}
+
+p{
+   font-size: 15px;
+    color: black;
+}
+  .card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+      float: left;
+      
+  }
+
+  
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .card-face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    font-family: Arial, sans-serif;
+    border: 2px solid #333;
+    background-color: #3498DB;
+     
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+    background-color: #9CD7FF;
+      float: left;
+     
+  }
+
+
