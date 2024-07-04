@@ -1,0 +1,42 @@
+.Contenido{
+      background-color:#8DC4DD;
+    margin: 30px;
+    padding: 30px;
+    
+}
+
+body{
+    background-image: url(FOTO%20Armando%20%20(1);
+    background-attachment: fixed;
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    font-family: arial black;
+}
+
+h3{
+    text-align: center;
+    font-family: Arial Black;
+}
+
+h4{
+    text-align: left; 
+}
+
+
+h5{
+    text-align: left;
+    font-weight: normal;
+    font-size: 6px;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
